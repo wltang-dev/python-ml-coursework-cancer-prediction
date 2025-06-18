@@ -1,4 +1,4 @@
-# 🎯 ML Coursework Supplement – Cancer PCR/RFS Prediction
+# ML Coursework Supplement – Cancer PCR/RFS Prediction
 
 This small project is a **supplementary coursework work** completed during my machine learning course in 2023.  
 The main goal was to explore predictive modeling on a medical dataset using Python and common ML libraries.
@@ -68,17 +68,16 @@ project/
 ---
 
 ##  Model Blending Example
-
-```python
 weights = [0.2, 0.2, 0.2, 0.2, 0.2]
 models = [rf_model, xgb_model, lgbm_model, gb_model, mlp_model]
 
 blended_preds = blended_prediction(models, X_test, weights)
 mse = mean_squared_error(y_test, blended_preds)
 r2 = r2_score(y_test, blended_preds)
+
 This blending approach improved robustness and reduced variance on test predictions.
 
- Notes
+## Notes
 
 This project was originally developed as part of a group coursework assignment.
 
@@ -88,9 +87,9 @@ While the overall structure and goals were discussed as a team, this repository 
 
 Please note that the dataset used is not publicly available and was provided for coursework purposes only.
 
- Disclaimer
+## Disclaimer
 This project is intended to showcase basic machine learning workflows as practiced in academic coursework.
 It is not optimized nor intended for clinical use.
 
-Contact
+## Contact
 Feel free to reach out via GitHub if you want to know more about the structure or models used.
